@@ -7,6 +7,7 @@ public:
 	Circle();
 	Circle(int x, int y);
 	~Circle();
-	void Draw();	
+	void Draw();
+	//bool IsMoreLeft(Circle circle);
 };
 

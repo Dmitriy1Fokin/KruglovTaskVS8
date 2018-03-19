@@ -8,5 +8,6 @@ public:
 	Square(int x, int y);
 	~Square();
 	void Draw();
+	//bool IsMoreLeft(Square square);
 };
 

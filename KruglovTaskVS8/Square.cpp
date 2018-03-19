@@ -23,3 +23,8 @@ void Square::Draw()
 {
 	cout << "Square. " << "Center points: " << "x - " << center_X << ", y - " << center_Y << endl;
 }
+
+//bool Square::IsMoreLeft(Square square)
+//{
+//	return (this->center_X < square.center_X);
+//}

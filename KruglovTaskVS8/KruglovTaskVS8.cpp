@@ -88,7 +88,14 @@ void Task2()
 	srand(time(0));
 	list<Shape*> mainList(10);
 	generate(mainList.begin(), mainList.end(), randShape);
+	cout << "Origin list:\n";
 	for_each(mainList.begin(), mainList.end(), mem_fun(&Shape::Draw));
+
+	cout << "\nSort by left:\n";
+	//sort(mainList.begin(), mainList.end(), mem_fun_ref(&Shape::IsMoreLeft));
+	for_each(mainList.begin(), mainList.end(), mem_fun(&Shape::Draw));
+	
+	
 	
 	/*Shape *shapeCircle = new Circle(2, 3);
 	shapeCircle->Draw();
@@ -100,7 +107,6 @@ void Task2()
 
 Shape* randShape()
 {
-	//Shape *shape;
 	int index = rand() % 3;
 	int x = rand() % 50;
 	int y = rand() % 50;

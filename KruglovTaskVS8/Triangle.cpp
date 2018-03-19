@@ -24,3 +24,8 @@ void Triangle::Draw()
 {
 	cout << "Triangle. " << "Center points: " << "x - " << center_X << ", y - " << center_Y << endl;
 }
+
+//bool Triangle::IsMoreLeft(Triangle triangle)
+//{
+//	return (this->center_X < triangle.center_X);
+//}

@@ -8,5 +8,6 @@ public:
 	Triangle(int x, int y);
 	~Triangle();
 	void Draw();
+	//bool IsMoreLeft(Triangle triangle);
 };
 

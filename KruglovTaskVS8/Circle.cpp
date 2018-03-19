@@ -24,3 +24,8 @@ void Circle::Draw()
 {
 	cout << "Circle. " << "Center points: " << "x - " << center_X << ", y - " << center_Y << endl;
 }
+
+//bool Circle::IsMoreLeft(Circle circle)
+//{
+//	return (this->center_X < circle.center_X);
+//}

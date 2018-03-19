@@ -1,6 +1,4 @@
-﻿  Triangle.cpp
-  Square.cpp
-  Circle.cpp
-  Создание кода...
-  KruglovTaskVS8.vcxproj -> D:\workspaceCpp\KruglovTaskVS8\Debug\KruglovTaskVS8.exe
-  KruglovTaskVS8.vcxproj -> D:\workspaceCpp\KruglovTaskVS8\Debug\KruglovTaskVS8.pdb (Partial PDB)
+﻿  KruglovTaskVS8.cpp
+d:\workspacecpp\kruglovtaskvs8\kruglovtaskvs8\kruglovtaskvs8.cpp(63): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\workspacecpp\kruglovtaskvs8\kruglovtaskvs8\kruglovtaskvs8.cpp(88): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+d:\workspacecpp\kruglovtaskvs8\kruglovtaskvs8\kruglovtaskvs8.cpp(130): warning C4715: randShape: значение возвращается не при всех путях выполнения
