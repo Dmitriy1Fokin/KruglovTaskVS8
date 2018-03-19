@@ -14,7 +14,9 @@
 
 // TODO: Установите здесь ссылки на дополнительные заголовки, требующиеся для программы
 #include <algorithm>
+#include <functional>
 #include <ctime>
 #include <conio.h>
 #include <iostream>
 #include <vector>
+#include <list>

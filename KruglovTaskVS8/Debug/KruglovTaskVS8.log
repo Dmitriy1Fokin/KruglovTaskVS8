@@ -1,4 +1,6 @@
-﻿  KruglovTaskVS8.cpp
-d:\workspacecpp\kruglovtaskvs8\kruglovtaskvs8\kruglovtaskvs8.cpp(25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+﻿  Triangle.cpp
+  Square.cpp
+  Circle.cpp
+  Создание кода...
   KruglovTaskVS8.vcxproj -> D:\workspaceCpp\KruglovTaskVS8\Debug\KruglovTaskVS8.exe
   KruglovTaskVS8.vcxproj -> D:\workspaceCpp\KruglovTaskVS8\Debug\KruglovTaskVS8.pdb (Partial PDB)
