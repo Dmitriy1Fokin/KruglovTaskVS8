@@ -92,8 +92,22 @@ void Task2()
 	for_each(mainList.begin(), mainList.end(), mem_fun(&Shape::Draw));
 
 	cout << "\nSort by left:\n";
+	
+	
+	/*Shape *q1 = new Circle(3, 2);
+	Shape *q2 = new Triangle(1, 4);
+	vector<Shape*> li;
+	li.push_back(q1);
+	li.push_back(q2);
+	cout << (li[0]->IsMoreLeft(*q2));*/
+
+	//sort(li.begin(), li.end(), mem_fun_ref(&Shape::IsMoreLeft));
+	//for_each(li.begin(), li.end(), mem_fun(&Shape::Draw));
+	
+	
+	
 	//sort(mainList.begin(), mainList.end(), mem_fun_ref(&Shape::IsMoreLeft));
-	for_each(mainList.begin(), mainList.end(), mem_fun(&Shape::Draw));
+	//for_each(mainList.begin(), mainList.end(), mem_fun(&Shape::Draw));
 	
 	
 	

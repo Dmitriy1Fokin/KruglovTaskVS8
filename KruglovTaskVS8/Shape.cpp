@@ -9,11 +9,17 @@ Shape::Shape()
 	center_Y = 0;
 }
 
+Shape::Shape(int x, int y)
+{
+	center_X = x;
+	center_Y = y;
+}
+
 Shape::~Shape()
 {
 }
 
-bool Shape::IsMoreLeft(Shape& shape)
+bool Shape::IsMoreLeft(const Shape& shape) const
 {
 	return (this->center_X < shape.center_X);
 }

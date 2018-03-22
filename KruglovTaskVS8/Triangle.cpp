@@ -22,7 +22,7 @@ Triangle::~Triangle()
 
 void Triangle::Draw()
 {
-	cout << "Triangle. " << "Center points: " << "x - " << center_X << ", y - " << center_Y << endl;
+	cout << "Triang. " << "Center points: " << "x - " << center_X << ", y - " << center_Y << endl;
 }
 
 //bool Triangle::IsMoreLeft(Triangle triangle)
